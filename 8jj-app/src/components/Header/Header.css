@@ -1,0 +1,12 @@
+.header {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  height: 40px;
+}
