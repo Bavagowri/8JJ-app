@@ -1,23 +1,26 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import News from "./pages/News";
-import Events from "./pages/Events";
-import FooterNav from "./components/FooterNav";
+import Home from "./pages/Home/Home";
+import News from "./pages/News/News";
+import Events from "./pages/Events/Events";
+import FooterNav from "./components/FooterNav/FooterNav";
 import "./App.css";
-import Heaader from "./components/Header/Heaader";
+import Header from "./components/Header/Header";
+import EventDetails from "./pages/EventDetails/EventDetails";
+
+
 
 function App() {
   return (
     <Router>
       <div className="outer-wrapper">
         <div className="mobile-container">
-          <Heaader />
+          <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/news" element={<News />} />
             <Route path="/events" element={<Events />} />
-          </Routes>
+            <Route path="/events/:id" element={<EventDetails />} />
+            </Routes>
           <FooterNav />
         </div>
       </div>

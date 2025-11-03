@@ -1,27 +1,67 @@
 [
   {
     "id": 1,
-    "headline": "8 Times Daily Jackpot — Win Big Every Hour!",
-    "body": "Join the 8JJ mega jackpot and stand a chance to win exciting rewards every hour. Don’t miss the action!",
-    "image": "/images/event1.jpg",
-    "publishedDate": "2025-10-30",
-    "showInNews": true
+    "headline": "Introducing the New Platforms – BMBIPL & 8IPL!",
+    "body": "Step into the next level of gaming and fun with BMBIPL and 8IPL! Stay connected, play with friends, and enjoy exciting bonuses every day. Invite your friends, share the thrill, and earn easy rewards just by staying social. Don’t miss out — join now, connect, and start winning together!",
+    "image": "/images/e1.jpg",
+    "publishedDate": "2025-10-16",
+    "showInNews": false
   },
+
   {
     "id": 2,
-    "headline": "Weekly Cashback Boost — 30% Returns for All Players!",
-    "body": "Enjoy unmatched cashback offers this week. Play more, earn more!",
-    "image": "/images/event2.jpg",
-    "publishedDate": "2025-10-28",
-    "showInNews": true
+    "headline": "Win Big: Daily Cash Drops and Mega Rewards!",
+    "body": "Get ready to unlock an incredible fortune with 8JJ! Our exclusive promotion offers you the chance to receive 8 times per day Max Drop, with rewards soaring up to an astounding ₹888,888. Don’t miss out on these daily opportunities to boost your balance and claim your share of the riches. Join the excitement and start winning today!",
+    "image": "/images/9.jpg",
+    "publishedDate": "2025-10-1",
+    "showInNews": false
   },
+
   {
     "id": 3,
-    "headline": "New Alliance Partner: BMB IPL Joins the Network!",
-    "body": "We’re thrilled to announce a new partnership with BMB IPL, expanding our gaming reach globally.",
-    "image": "/images/event3.jpg",
-    "publishedDate": "2025-10-25",
+    "headline": "30% WEEKLY CASHBACK: Your Ultimate Casino Win Boost!",
+    "body": "Step onto the casino floor at 8JJ and secure your bankroll with our phenomenal 30% Weekly Cashback offer! Every week, we give you a massive portion of your losses back, turning every bet into a better opportunity. On top of that, maximize your playtime with exciting mystery rewards available to claim 8 times per day. From slot machines to table games, this promotion ensures you have the best chance to win big and keep the fun rolling. Don’t wait—your cashback is waiting!",
+    "image": "/images/e3.jpg",
+    "publishedDate": "2025-09-24",
+    "showInNews": false
+  },
+
+  {
+    "id": 4,
+    "headline": "Share & Win: Get ₹500 FREE with Every Referral!",
+    "body": "Spread the word and watch your rewards spin in! With the 8JJ Share & Win program, you can get a massive ₹500 for FREE every time you successfully refer a new user. It's simple — just share your unique link, and when your friend joins, your account is credited! The Wheel of Fortune in the center represents all the incredible bonuses waiting for you. Start inviting your network today — the more you share, the more free rewards you earn!",
+    "image": "/images/e4.jpg",
+    "publishedDate": "2025-09-11",
+    "showInNews": false
+  },
+
+  {
+    "id": 5,
+    "headline": "Maximize Your Income: Daily Earnings, 4% Deposit Bonus & 2% Commission!",
+    "body": "Elevate your financial game with 8JJ's incredible earning opportunities! Secure generous Daily Earnings simply by participating. We offer an outstanding 4% bonus on every deposit you make, instantly boosting your bankroll. Beyond that, start generating passive income with a steady 2% Commission on qualified activities. This powerful combination of a deposit bonus and consistent commission is designed to put more money in your hands every single day. Don’t just play—profit!",
+    "image": "/images/blog7.jpg",
+    "publishedDate": "2025-09-08",
+    "showInNews": false
+  },
+
+  {
+    "id": 6,
+    "headline": "New Member & Seventh Deposit Bonus: Get 77% Bonus!",
+    "body": "Welcome to 8JJ, where your deposits get rewarded like gold! As a New Member, you'll receive a special Deposit Bonus to kickstart your journey. But the excitement doesn't stop there — reach your Seventh Deposit and unlock an incredible 77% Bonus! This exclusive offer is designed to keep your play thrilling and your winnings soaring. Dive into a world of endless entertainment and massive bonuses. Don’t miss out on these golden opportunities at 8JJ!",
+    "image": "/images/e6.jpg",
+    "publishedDate": "2025-09-02",
+    "showInNews": false
+  },
+
+  {
+    "id": 7,
+    "headline": "VIP SUPER REWARDS: Exclusive Daily & Monthly Bonuses!",
+    "body": "Elevate your gaming experience by becoming a VIP member at 8JJ! Our exclusive VIP Super Rewards program offers premium benefits, including enhanced Daily and Monthly Rewards. Enjoy higher bonuses, special promotions, and privileged access, symbolized by the 2% and 4% figures which represent increased bonus and commission rates. As a VIP, you receive the recognition and generous payouts you deserve. Unlock your VIP status today and start claiming your exclusive rewards!",
+    "image": "/images/blog9.jpg",
+    "publishedDate": "2025-09-02",
     "showInNews": false
   }
+
+
 ]
 

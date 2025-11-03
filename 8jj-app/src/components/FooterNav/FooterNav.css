@@ -1,0 +1,121 @@
+:root {
+  --hover-blue: rgba(0, 123, 255, 0.15);
+  --icon-size: 40px;
+
+  --body-max-width: 560px;
+ 
+  --footer-background: #389FDA;
+  --text-skin: #0c1b2a;
+  --brand: #11a2eb;
+  --brand-2: #169ee2;
+  --ring: rgba(17,162,235,.25);
+  
+}
+
+/* 🌟 FOOTER BAR */
+.footer-nav {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: fit-content;
+  max-width: 420px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  /* border-top-left-radius: 14px;
+  border-top-right-radius: 14px; */
+  border-radius: 14px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background:
+    linear-gradient(180deg, rgba(157, 187, 230, 0.20) 0%, rgba(255, 255, 255, 0.63) 100%),
+    var(--footer-background);
+  box-shadow: 0 8px 24px rgba(0,0,0,.18), inset 0 0 0 1px rgba(255,255,255,.25);
+  z-index: 50;
+}
+
+/* 🧭 NAV ITEM */
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  background: transparent;
+  border: none;
+  color: #0c1b2a;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  background: rgba(186, 220, 243, 0.835);
+  transform: translateY(-1px);
+  border-radius: 10px;
+}
+
+/* 🔵 Hover or Active */
+/* .nav-item:hover .nav-icon-bg,
+.nav-item.active .nav-icon-bg {
+  background: rgba(255,255,255,.45);
+  transform: translateY(-1px);
+} */
+
+.nav-item:hover span,
+.nav-item.active span {
+  color: #47a5e8;
+}
+
+/* 🟦 Icon background circle */
+.nav-icon-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 40px;
+  border-radius: 12px;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+/* 🖼 Icons */
+.nav-icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* make white-style icons pop */
+}
+
+/* Label */
+.nav-item span {
+  margin-top: 2px;
+  font-size: 11px;
+}
+
+/* 📱 Small screens */
+@media (max-width: 400px) {
+  .footer-nav {
+    padding: 8px 0;
+  }
+
+  .nav-icon-bg {
+    width: 40px;
+    height: 36px;
+  }
+
+  .nav-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .nav-item span {
+    font-size: 10px;
+  }
+}

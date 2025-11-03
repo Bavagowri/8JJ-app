@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import eventsData from "../../data/events.json";
+import eventsData from "../../data/newsTicker.json";
 import "./NewsTicker.css";
 
 const NewsTicker = () => {
@@ -12,7 +12,9 @@ const NewsTicker = () => {
 
   return (
     <div className="news-ticker">
-      <div className="ticker-label">📰 Latest:</div>
+      <div className="ticker-label">
+        <img src="/icons/icon_news.png" alt="news-icon" className="news-icon-image" />
+      </div>
       <div className="ticker-content">
         <div className="ticker-track">
           {newsEvents.map((news, index) => (

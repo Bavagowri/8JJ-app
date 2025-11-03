@@ -1,0 +1,29 @@
+[
+    {
+    "id": 1,
+    "headline": "Exciting events - Non-stop promotions! 🔔",
+    "body": "Join the 8JJ mega jackpot and stand a chance to win exciting rewards every hour. Don’t miss the action!",
+    "image": "/images/event1.jpg",
+    "publishedDate": "2025-10-30",
+    "showInNews": true
+  },
+  {
+    "id": 2,
+    "headline": "🎊 9IPL - 8IPL - BMBIPL 🎁 Newbie Gift 58K to experience, enjoy the ultimate experience with 8JJ Alliance 🧧",
+    "body": "Enjoy unmatched cashback offers this week. Play more, earn more!",
+    "image": "/images/event2.jpg",
+    "publishedDate": "2025-10-28",
+    "showInNews": true
+  },
+  {
+    "id": 3,
+    "headline": "📢📢📢 8JJ Alliance is the most prestigious and classy in Asia",
+    "body": "We’re thrilled to announce a new partnership with BMB IPL, expanding our gaming reach globally.",
+    "image": "/images/event3.jpg",
+    "publishedDate": "2025-10-25",
+    "showInNews": false
+  }
+]
+
+
+

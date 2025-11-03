@@ -1,0 +1,157 @@
+.event-details {
+  background: var(--header-background, linear-gradient(0deg, #fffffffc 0%, #9acdf2d5 100% ));
+  text-align: left;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: center; /* 👈 centers the button horizontally */
+  align-items: center;
+  padding: 16px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--header-background, linear-gradient(0deg, #bbdef2d7 0%, #83c6f582 100% ));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  /* --glass: rgba(255,255,255,.55);
+  --glass-edge: rgba(255,255,255,.85);
+  --ink: #0c2b4a;
+  --pill-bg: rgba(255,255,255,.7);
+  --pill-active: #1B9EDF; */
+  /* background: var(--header-background, linear-gradient(0deg, #a8d5f6b9 60% , #fffffffc 0%)); */
+  /* background: linear-gradient(0deg, #ffffff51 0%, #a8d6f660 90%);
+  backdrop-filter: saturate(120%) blur(8px);
+  box-shadow: 0 6px 20px rgba(16, 56, 94, 0.12);
+  border-bottom: 1px solid rgba(20, 66, 114, 0.08); */
+
+  /* display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10; */
+}
+
+/* Centered back button */
+.back-btn {
+  background: #c1dbf6;
+  border-radius: 10px;
+  padding: 8px 14px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f82e1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.back-btn:hover {
+  background: #b5d3f2;
+  color: #007bff;
+}
+
+.arrow {
+  font-size: 16px;
+}
+
+
+
+.event-logo {
+  height: 35px;
+}
+
+/* 🗓️ Event Meta */
+.event-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px 0;
+  font-size: 12px;
+  color: #007bff;
+}
+
+.event-tag {
+  background: #ffffff3c;
+  border: 0.5px solid #3cb5f1;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+/* 📰 Title */
+.event-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #111;
+  padding: 8px 16px;
+  line-height: 1.4;
+}
+
+/* 🖼 Banner */
+.event-banner {
+  width: 90%;
+  display: block;
+  margin: 0 auto 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 📝 Content */
+.event-body {
+  padding: 0 16px 20px;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* 📦 Mission Box */
+.mission-box {
+  background: white;
+  margin: 10px 16px 20px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.mission-box p {
+  color: #333;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* 🌐 Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-links img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+/* ✅ Make page scrollable */
+.page.event-details {
+  height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 80px;
+}
+
+.page.event-details::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}

@@ -1,12 +1,111 @@
 .header {
-  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: linear-gradient(180deg, #e6f3ff 0%, #a8d5f6b9 100%);
+  backdrop-filter: saturate(120%) blur(8px);
+  box-shadow: 0 6px 20px rgba(16, 56, 94, 0.12);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+  border-bottom: 1px solid rgba(20, 66, 114, 0.08);
+}
+
+/* Logo centered */
+.logo-wrapper {
+  flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 8px;
-  border-bottom: 1px solid #eee;
+  cursor: pointer;
 }
 
 .logo {
-  height: 40px;
+  height: 45px;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Translate container aligned right */
+.translate-box {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Optional spacer to center logo symmetrically */
+.translate-spacer {
+  flex: 1;
+}
+
+/* 🟦 Blue theme for Google Translate */
+#google_translate_element {
+  background: linear-gradient(135deg, #a8d5f6b9, #47a5e8d1);
+  border-radius: 8px;
+  padding: 4px 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+#google_translate_element:hover {
+  transform: scale(1.03);
+}
+
+/* Translate text label */
+.goog-te-gadget {
+  color: #ffffff !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500;
+  text-align: right;
+}
+
+/* Dropdown select styling */
+.goog-te-combo {
+  background-color: #ffffff !important;
+  color: #0a4c80 !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 6px !important;
+  padding: 4px 10px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.goog-te-combo:hover {
+  background-color: #e2f0ff !important;
+  border-color: #0d75c9 !important;
+}
+
+/* Hide default Google icons/text */
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget span {
+  display: none !important;
+}
+
+/* Hide Google Translate banner (that shows on top of screen) */
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+/* Remove translation overlay */
+.goog-te-overlay {
+  display: none !important;
 }
