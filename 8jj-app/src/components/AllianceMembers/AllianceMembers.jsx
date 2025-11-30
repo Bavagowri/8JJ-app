@@ -3,10 +3,13 @@ import "./AllianceMembers.css";
 import aliance from '../../images/group.png'
 
 const allianceLinks = [
-  { name: "BLR IPL", img: "/images/BMBIPL.png", link: "https://blripl.com" },
-  { name: "9 IPL", img: "/images/9IPL.png", link: "https://9ipl.com" },
-  { name: "BMB IPL", img: "/images/BMBIPL.png", link: "https://bmbipl.com" },
-  { name: "8 IPL", img: "/images/8IPL.png", link: "https://8ipl.com" }
+  { name: "MAAIPL", img: "/images/MAAIPL2.png", link: "MAAIPL.apk" },
+  { name: "GNGIPL", img: "/images/GNGIPL2.png", link: "GNGIPL.apk" },
+  { name: "8IPL", img: "/images/8IPL1.png", link: "8IPL.apk" },
+  { name: "9IPL", img: "/images/9IPL.png", link: "9IPL.apk" },
+  { name: "BMBIPL", img: "/images/BMBIPL.png", link: "BMBIPL.apk" },
+  { name: "BLRIPL", img: "/images/BLRIPL1.png", link: "BLRIPL.apk" }
+
 ];
 
 const AllianceMembers = () => {

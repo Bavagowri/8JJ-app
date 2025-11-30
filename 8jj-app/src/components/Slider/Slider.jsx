@@ -1,26 +1,27 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/navigation";
-import { Navigation, Autoplay } from "swiper/modules";
+import "swiper/css/pagination";
+import { Pagination, Autoplay } from "swiper/modules";
 import './Slider.css';
 
 const Slider = () => {
   const slides = [
-    { img: "/images/blog3.jpg", link: "/events/1" },
-    { img: "/images/blog4.jpg", link: "/events/2" },
-    { img: "/images/blog5.jpg", link: "/events/3" },
+    { img: "/images/slider/1.jpg", link: "/events/1" },
+    { img: "/images/slider/3.jpg", link: "/events/2" },
+    { img: "/images/slider/2.jpg", link: "/events/3" },
   ];
 
   return (
     
     <Swiper
-      modules={[Navigation, Autoplay]}
-      navigation
+      modules={[Autoplay, Pagination]}
       autoplay={{ delay: 3000 }}
+      pagination={{ clickable: true }}
       loop
-      className="slider"
+      className="slider hero-slider"
     >
+
       {slides.map((slide, i) => (
         <SwiperSlide key={i}>
           <a href={slide.link}>

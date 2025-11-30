@@ -1,8 +1,8 @@
 import React from "react";
 import eventsData from "../../data/events.json";
-import "./NewsPreview.css";
+import "./EventsPreview.css";
 
-const NewsPreview = () => {
+const EventsPreview = () => {
   // Sort events by date (latest first)
   const sortedEvents = [...eventsData].sort(
     (a, b) => new Date(b.publishedDate) - new Date(a.publishedDate)
@@ -38,4 +38,4 @@ const NewsPreview = () => {
   );
 };
 
-export default NewsPreview;
+export default EventsPreview;

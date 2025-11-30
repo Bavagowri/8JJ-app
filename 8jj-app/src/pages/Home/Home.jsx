@@ -5,7 +5,7 @@ import './Home.css';
 import NewsTicker from "../../components/NewsTicker/NewsTicker";
 import AllianceMembers from "../../components/AllianceMembers/AllianceMembers";
 import ContactUs from "../../components/ContactUs/ContactUs";
-import NewsPreview from "../../components/NewsPreview/NewsPreview";
+import EventsPreview from "../../components/EventsPreview/EventsPreview";
 import SocialGlobalBanner from "../../components/SocialGlobalBanner/SocialGlobalBanner";
 
 
@@ -32,7 +32,7 @@ const Home = () => {
       <AllianceMembers />
       <ContactUs />
       <div id="news-section">
-        <NewsPreview />
+        <EventsPreview />
       </div>
       <SocialGlobalBanner />
     </div>

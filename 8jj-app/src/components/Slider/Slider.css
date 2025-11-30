@@ -1,6 +1,44 @@
 /* Slider styling */
 .slider-img {
   width: 100%;
-  height: 180px;
+  height: 230px;
   object-fit: cover;
+  display: block;
+}
+
+/* MAIN SLIDER CONTAINER */
+.hero-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Bottom white fade overlay */
+.hero-slider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120px;  /* Adjust based on how soft you want the fade */
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), #ffffff);
+  z-index: 20;
+}
+
+
+/* default inactive dot */
+.hero-slider .swiper-pagination-bullet {
+  background: rgba(0, 120, 180, 0.764) !important;
+  width: 10px;
+  height: 10px;
+  opacity: 1 !important;
+  margin: 0 6px !important;
+}
+
+/* active dot */
+.hero-slider .swiper-pagination-bullet-active {
+  background: #022d43 !important;
+  width: 12px;
+  height: 12px;
+  box-shadow: 0 0 6px rgba(0, 119, 178, 0.872);
 }
